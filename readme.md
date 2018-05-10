@@ -19,6 +19,6 @@ Go to [npmpackdown](http://npmpackdown.herokuapp.com) and enjoy.
 
 ## License
 
-The MIT License ([MIT](https://github.com/marcker/rust-api-hello-world/blob/master/license.md))
+The MIT License ([MIT](https://github.com/marcker/npm-pack-down/blob/master/license.md))
 
 Copyright (c) 2018 marcker

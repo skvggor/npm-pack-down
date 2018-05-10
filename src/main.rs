@@ -1,6 +1,8 @@
-#[macro_use] extern crate nickel;
+#[macro_use]
+extern crate nickel;
 
 use nickel::Nickel;
+use std::env;
 
 fn main() {
     let mut server = Nickel::new();
@@ -11,5 +13,9 @@ fn main() {
         }
     });
 
-    server.listen("127.0.0.1:6767");
+    fn get_server_port() -> u16 {
+        env::var("PORT").unwrap_or("6767".to_string()).parse().unwrap()
+    }
+
+    server.listen(("0.0.0.0", get_server_port()));
 }
