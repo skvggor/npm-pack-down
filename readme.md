@@ -1,5 +1,7 @@
 # npm-pack-down
 
+[![Build Status](https://travis-ci.org/marcker/npm-pack-down.svg?branch=master)](https://travis-ci.org/marcker/npm-pack-down)
+
 Check the amount of downloads of [NPM](https://www.npmjs.com/) packages.
 
 ---
