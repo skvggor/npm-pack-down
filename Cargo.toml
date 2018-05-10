@@ -1,0 +1,7 @@
+[package]
+name = "npm-pack-down"
+version = "1.0.0"
+authors = ["Marcos Garcia de Lima <marckfree@gmail.com>"]
+
+[dependencies]
+nickel = "*"
