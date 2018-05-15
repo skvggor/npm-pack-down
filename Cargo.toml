@@ -4,4 +4,7 @@ version = "1.0.0"
 authors = ["Marcos Garcia de Lima <marckfree@gmail.com>"]
 
 [dependencies]
+futures = "0.1"
+hyper = "0.11"
 nickel = "*"
+tokio-core = "0.1"
